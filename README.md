@@ -4,8 +4,8 @@ A small autograd (automatic differentiation) engine, built by following Andrej K
 
 As an extension, I have added
 
--   A script to train a micrograd neural network
--   A Notebook where I verify that micrograd yield the same results as pytorch for prediction, loss and gradient calculation
+-   A script to train a micrograd neural network to learn the XOR operation
+-   A Notebook where I verify that micrograd yield the same results as PyTorch for prediction, loss, and gradient calculation
 
 ## Training
 
@@ -13,7 +13,7 @@ To train a micrograd neural network on the XOR function, run `python3 train.py`
 
 ## Verfication
 
-A step-by-step walkthrough comparing micrograd and pytorch outputs for prediction, loss and gradients is provided in `verification.ipynb`
+A step-by-step walkthrough comparing micrograd and PyTorch outputs for prediction, loss, and gradients is provided in `verification.ipynb`
 
 ## Example
 
